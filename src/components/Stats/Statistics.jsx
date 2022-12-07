@@ -5,7 +5,7 @@ import { Section, Title, ListData, ItemData } from './Statistics.styled';
 export const Statistics = ({ stats, title }) => {
   return (
     <Section>
-      {title.length > 0 ? <Title>{title}</Title> : null}
+      {<Title>{title}</Title>}
 
       <ListData>
         {stats.map(stat => (
